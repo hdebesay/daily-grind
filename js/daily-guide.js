@@ -62,48 +62,48 @@ switch(myDay){
     case 1: 
     today = "Monday";
     coffee = {
-        color: "pink",
-        name: "Bubble Tea",
-        pic: "images/mocha.jpg",
-        alt: "A picture of a mocha",
+        color: "brown",
+        name: "Caramel Latte",
+        pic: "images/caramel-latter.jpg",
+        alt: "A picture of a caramel latter",
         day: "Thursday", 
-        desc: `I like me some mocha`
+        desc: `I like me some caramel latte`
     };
 break;
 
     case 2: 
         today = "Tuesday";
         coffee = {
-            color: "pink",
-            name: "Bubble Tea",
-            pic: "images/bubble-tea.jpg",
-            alt: "A picture of a bubble tea",
+            color: "green",
+            name: "Cold Brew",
+            pic: "images/cold-brew.jpg",
+            alt: "A picture of a cold brew",
             day: "Wednesday", 
-            desc: `I like me some Bubble Tea`
+            desc: `I like me some cold brew`
         };
     break;
 
     case 3: 
         today = "Wednesday";
         coffee = {
-            color: "pink",
-            name: "Bubble Tea",
-            pic: "images/bubble-tea.jpg",
-            alt: "A picture of a bubble tea",
+            color: "red",
+            name: "Drip",
+            pic: "images/drip.jpg",
+            alt: "A picture of a drip",
             day: "Wednesday", 
-            desc: `I like me some Bubble Tea`
+            desc: `I like me some Drip`
         };
     break;
 
     case 4: 
     today = "Thursday";
     coffee = {
-        color: "pink",
-        name: "Bubble Tea",
-        pic: "images/mocha.jpg",
-        alt: "A picture of a mocha",
+        color: "blue",
+        name: "frappaccino",
+        pic: "images/frappaccino.jpg",
+        alt: "A picture of a frappaccino",
         day: "Thursday", 
-        desc: `I like me some mocha`
+        desc: `I like me some frappaccino`
     };
 break;
 
@@ -111,7 +111,7 @@ break;
     today = "Friday";
     coffee = {
         color: "pink",
-        name: "Bubble Tea",
+        name: "mocha",
         pic: "images/mocha.jpg",
         alt: "A picture of a mocha",
         day: "Thursday", 
@@ -121,12 +121,12 @@ break;
     case 6: 
     today = "Saturday";
     coffee = {
-        color: "pink",
-        name: "Bubble Tea",
-        pic: "images/mocha.jpg",
-        alt: "A picture of a mocha",
+        color: "orange",
+        name: "pumpkin spice latte",
+        pic: "images/pumpkin-spice-latte.jpg",
+        alt: "A picture of a pumpkin spice latte",
         day: "Thursday", 
-        desc: `I like me some mocha`
+        desc: `I like me some pumpkin spice latte`
     };
     break;
 
@@ -141,5 +141,5 @@ break;
 // console.log(coffee);
 
 
-document.getElementById('coffee-cup').innerHTML = coffeeTemplate();
-document.querySelector('coffee.color').style.background = myColor;
+document.getElementById('coffee-cup').innerHTML = coffeeTemplate(coffee);
+document.querySelector('html').style.backgroundColor = coffee.color;

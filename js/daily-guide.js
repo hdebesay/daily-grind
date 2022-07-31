@@ -54,7 +54,7 @@ switch(myDay){
             name: "Bubble Tea",
             pic: "images/bubble-tea.jpg",
             alt: "A picture of a bubble tea",
-            day: "Wednesday", 
+            day: "Sunday", 
             desc: `I like me some Bubble Tea`
         };
     break;
@@ -66,7 +66,7 @@ switch(myDay){
         name: "Caramel Latte",
         pic: "images/caramel-latte.jpg",
         alt: "A picture of a caramel latter",
-        day: "Thursday", 
+        day: "Monday", 
         desc: `I like me some caramel latte`
     };
 break;
@@ -78,7 +78,7 @@ break;
             name: "Cold Brew",
             pic: "images/cold-brew.jpg",
             alt: "A picture of a cold brew",
-            day: "Wednesday", 
+            day: "Tuesday", 
             desc: `I like me some cold brew`
         };
     break;
@@ -114,7 +114,7 @@ break;
         name: "mocha",
         pic: "images/mocha.jpg",
         alt: "A picture of a mocha",
-        day: "Thursday", 
+        day: "Friday", 
         desc: `I like me some mocha`
     };
 break;
@@ -125,7 +125,7 @@ break;
         name: "pumpkin spice latte",
         pic: "images/pumpkin-spice-latte.jpg",
         alt: "A picture of a pumpkin spice latte",
-        day: "Thursday", 
+        day: "Saturday", 
         desc: `I like me some pumpkin spice latte`
     };
     break;
